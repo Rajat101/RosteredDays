@@ -1,6 +1,6 @@
 Overall Functionality:
 
-Your application is a roster planning and optimization tool designed to help users:
+
 
 Project Workdays:
 Calculate and display workdays for individual employees based on a defined roster pattern and start date.
