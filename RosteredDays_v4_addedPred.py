@@ -101,6 +101,31 @@ st.markdown(
 
 # Define public holidays in WA for the years 2025, 2026, and 2027
 public_holidays = {
+    2023: [
+    {"name": "New Year's Day","date": "2023-01-01"},
+    {"name": "New Year's Day (Additional Day)", "date": "2023-01-02"},
+    {"name": "Australia Day", "date": "2023-01-26"},
+    {"name": "Labour Day", "date": "2023-03-06"},
+    {"name": "Good Friday", "date": "2023-04-07"},
+    {"name": "Easter Monday", "date": "2023-04-10"},
+    {"name": "Anzac Day", "date": "2023-04-25"},
+    {"name": "Western Australia Day", "date": "2023-06-05"},
+    {"name": "King's Birthday", "date": "2023-09-25"},
+    {"name": "Christmas Day","date": "2023-12-25"},
+    {"name": "Boxing Day", "date": "2023-12-26"}
+  ],
+  2024: [
+    {"name": "New Year's Day", "date": "2024-01-01"},
+    {"name": "Australia Day", "date": "2024-01-26"},
+    {"name": "Labour Day", "date": "2024-03-04"},
+    {"name": "Good Friday", "date": "2024-03-29"},
+    {"name": "Easter Monday", "date": "2024-04-01"},
+    {"name": "Anzac Day", "date": "2024-04-25"},
+    {"name": "Western Australia Day", "date": "2024-06-03"},
+    {"name": "King's Birthday", "date": "2024-09-23"},
+    {"name": "Christmas Day", "date": "2024-12-25"},
+    {"name": "Boxing Day", "date": "2024-12-26"}
+  ],
     2025: [
         {"name": "New Year's Day", "date": "2025-01-01"},
         {"name": "Australia Day", "date": "2025-01-27"},
@@ -143,8 +168,100 @@ public_holidays = {
 }
 
 
-# Define public holidays in WA for the years 2025, 2026, and 2027
+# Define public holidays in QLD for the years 2025, 2026, and 2027
 public_holidays_Queensland = {
+    2023: [
+      {
+        "name": "New Year's Day",
+        "date": "2023-01-01"
+      },
+      {
+        "name": "Australia Day",
+        "date": "2023-01-26"
+      },
+      {
+        "name": "Good Friday",
+        "date": "2023-04-07"
+      },
+      {
+        "name": "Easter Saturday",
+        "date": "2023-04-08"
+      },
+      {
+        "name": "Easter Sunday",
+        "date": "2023-04-09"
+      },
+      {
+        "name": "Easter Monday",
+        "date": "2023-04-10"
+      },
+      {
+        "name": "Anzac Day",
+        "date": "2023-04-25"
+      },
+      {
+        "name": "Labour Day",
+        "date": "2023-05-01"
+      },
+      {
+        "name": "Queen's Birthday",
+        "date": "2023-10-02"
+      },
+      {
+        "name": "Christmas Day",
+        "date": "2023-12-25"
+      },
+      {
+        "name": "Boxing Day",
+        "date": "2023-12-26"
+      }
+    ],
+    2024: [
+      {
+        "name": "New Year's Day",
+        "date": "2024-01-01"
+      },
+      {
+        "name": "Australia Day",
+        "date": "2024-01-26"
+      },
+      {
+        "name": "Good Friday",
+        "date": "2024-03-29"
+      },
+      {
+        "name": "Easter Saturday",
+        "date": "2024-03-30"
+      },
+      {
+        "name": "Easter Sunday",
+        "date": "2024-03-31"
+      },
+      {
+        "name": "Easter Monday",
+        "date": "2024-04-01"
+      },
+      {
+        "name": "Anzac Day",
+        "date": "2024-04-25"
+      },
+      {
+        "name": "Labour Day",
+        "date": "2024-05-06"
+      },
+      {
+        "name": "Queen's Birthday",
+        "date": "2024-10-07"
+      },
+      {
+        "name": "Christmas Day",
+        "date": "2024-12-25"
+      },
+      {
+        "name": "Boxing Day",
+        "date": "2024-12-26"
+      }
+    ],
     2025: [
         {"name": "New Year's Day", "date": "2025-01-01"},
         {"name": "Australia Day", "date": "2025-01-26"},
