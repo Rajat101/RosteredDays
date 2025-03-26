@@ -457,7 +457,7 @@ def calculate_workdays(start_date, roster_pattern, public_holidays, location, ye
     cycles = []  # Store cycle details
 
     all_public_holidays = []
-    for year in range(2025, 2028):
+    for year in range(2023, 2028):
         if location == "Queensland":
             if year in public_holidays:  # Add this check
                 all_public_holidays.extend(public_holidays[year])
@@ -575,7 +575,7 @@ if page == "Projection":
         
          # Access the variables from session state
         all_public_holidays = []
-        for year in range(2025, 2028):
+        for year in range(2023, 2028):
             if location == "Queensland":
                 all_public_holidays.extend(public_holidays_Queensland[year])
             elif location == "Western Australia":
@@ -763,7 +763,7 @@ elif page == "All Rosters":
                 start_date_str = start_date.strftime("%Y-%m-%d")
 
                 selected_public_holidays = []
-                for year in range(2025, 2028):
+                for year in range(2023, 2028):
                     if location == "Queensland":
                         selected_public_holidays.extend(public_holidays_Queensland[year])
                     elif location == "Western Australia":
