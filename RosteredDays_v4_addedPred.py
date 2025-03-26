@@ -366,7 +366,7 @@ location = st.sidebar.radio("Select Location for Public Holidays", ["Queensland"
 # Custom Holiday Input
 st.sidebar.subheader("Enter Custom Public Holiday")
 holiday_name = st.sidebar.text_input("Holiday Name")
-holiday_date = st.sidebar.date_input("Holiday Date", min_value=datetime(2025, 1, 1))
+holiday_date = st.sidebar.date_input("Holiday Date", min_value=datetime(2023, 1, 1))
 
 # Button to add custom holiday
 if st.sidebar.button("Add Custom Holiday"):
@@ -527,7 +527,7 @@ if page == "Projection":
     employee_name = st.text_input("Enter Employee Name:")
     
     # User selects Start Date
-    start_date = st.date_input("Select Start Date", min_value=datetime(2025, 1, 1), key="start_date_input")
+    start_date = st.date_input("Select Start Date", min_value=datetime(2023, 1, 1), key="start_date_input")
     
     # Calculate end date (12 months after the start date)
     end_date = calculate_end_date(start_date)
@@ -750,7 +750,7 @@ if page == "Projection":
 elif page == "All Rosters":
     st.title("All Rosters Projection")
 
-    start_date = st.date_input("Select Start Date", min_value=datetime(2025, 1, 1), key="all_rosters_start_date")
+    start_date = st.date_input("Select Start Date", min_value=datetime(2023, 1, 1), key="all_rosters_start_date")
 
     if st.button("Export All Rosters to Excel"):
         excel_file = io.BytesIO()
@@ -875,7 +875,7 @@ elif page == "All Rosters":
 elif page == "Start Date Optimizer":
     st.title("Start Date Optimizer")
 
-    start_date = st.date_input("Select Start Date for Optimization", min_value=datetime(2025, 1, 1), key="optimizer_start_date")
+    start_date = st.date_input("Select Start Date for Optimization", min_value=datetime(2023, 1, 1), key="optimizer_start_date")
     window_weeks = st.selectbox("Select Optimization Window (weeks)", options=[2, 3, 4, 6, 8])
 
     if location == "Queensland":
