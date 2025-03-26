@@ -3,6 +3,7 @@ from datetime import datetime, timedelta
 import pandas as pd
 import io
 import plotly.graph_objects as go  # Import plotly
+import xlsxwriter
 
 
 # Set Streamlit Theme Colors
