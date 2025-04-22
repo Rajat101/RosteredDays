@@ -100,8 +100,54 @@ st.markdown(
 
 
 
-# Define public holidays in WA for the years 2025, 2026, and 2027
+# Define public holidays in WA for the years 2020, 2021, 2022, 2023, 2024, 2025, 2026, and 2027
 public_holidays = {
+    2020: [
+        {"name": "New Year's Day", "date": "2020-01-01"},
+        {"name": "Australia Day", "date": "2020-01-27"},
+        {"name": "Labour Day", "date": "2020-03-02"},
+        {"name": "Good Friday", "date": "2020-04-10"},
+        {"name": "Easter Monday", "date": "2020-04-13"},
+        {"name": "Anzac Day", "date": "2020-04-25"},
+        {"name": "Anzac Day (Additional Day)", "date": "2020-04-27"},
+        {"name": "Western Australia Day", "date": "2020-06-01"},
+        {"name": "Queen's Birthday", "date": "2020-09-28"},
+        {"name": "Christmas Day", "date": "2020-12-25"},
+        {"name": "Boxing Day", "date": "2020-12-26"},
+        {"name": "Boxing Day (Additional Day)", "date": "2020-12-28"}
+    ],
+    2021: [
+        {"name": "New Year's Day", "date": "2021-01-01"},
+        {"name": "Australia Day", "date": "2021-01-26"},
+        {"name": "Labour Day", "date": "2021-03-01"},
+        {"name": "Good Friday", "date": "2021-04-02"},
+        {"name": "Easter Monday", "date": "2021-04-05"},
+        {"name": "Anzac Day", "date": "2021-04-25"},
+        {"name": "Anzac Day (Additional Day)", "date": "2021-04-26"},
+        {"name": "Western Australia Day", "date": "2021-06-07"},
+        {"name": "Queen's Birthday", "date": "2021-09-27"},
+        {"name": "Christmas Day", "date": "2021-12-25"},
+        {"name": "Christmas Day (Additional Day)", "date": "2021-12-27"},
+        {"name": "Boxing Day", "date": "2021-12-26"},
+        {"name": "Boxing Day (Additional Day)", "date": "2021-12-28"}
+    ],
+    2022: [
+        {"name": "New Year's Day", "date": "2022-01-01"},
+        {"name": "New Year's Day (Additional Day)", "date": "2022-01-03"},
+        {"name": "Australia Day", "date": "2022-01-26"},
+        {"name": "Labour Day", "date": "2022-03-07"},
+        {"name": "Good Friday", "date": "2022-04-15"},
+        {"name": "Easter Sunday", "date": "2022-04-17"},
+        {"name": "Easter Monday", "date": "2022-04-18"},
+        {"name": "Anzac Day", "date": "2022-04-25"},
+        {"name": "Western Australia Day", "date": "2022-06-06"},
+        {"name": "National Day of Mourning", "date": "2022-09-22"},
+        {"name": "King's Birthday", "date": "2022-09-26"},
+        {"name": "Christmas Day", "date": "2022-12-25"},
+        {"name": "Christmas Day (Additional Day)", "date": "2022-12-26"},
+        {"name": "Boxing Day", "date": "2022-12-26"},
+        {"name": "Boxing Day (Additional Day)", "date": "2022-12-27"}
+    ],
     2023: [
     {"name": "New Year's Day","date": "2023-01-01"},
     {"name": "New Year's Day (Additional Day)", "date": "2023-01-02"},
@@ -148,10 +194,12 @@ public_holidays = {
         {"name": "Easter Sunday", "date": "2026-04-05"},
         {"name": "Easter Monday", "date": "2026-04-06"},
         {"name": "Anzac Day", "date": "2026-04-25"},
+        {"name": "Anzac Day", "date": "2026-04-27"},
         {"name": "Western Australia Day", "date": "2026-06-01"},
         {"name": "King's Birthday", "date": "2026-09-28"},
         {"name": "Christmas Day", "date": "2026-12-25"},
-        {"name": "Boxing Day", "date": "2026-12-26"}
+        {"name": "Boxing Day", "date": "2026-12-26"},
+        {"name": "Boxing Day", "date": "2026-12-28"}
     ],
     2027: [
         {"name": "New Year's Day", "date": "2027-01-01"},
@@ -161,20 +209,76 @@ public_holidays = {
         {"name": "Easter Sunday", "date": "2027-03-28"},
         {"name": "Easter Monday", "date": "2027-03-29"},
         {"name": "Anzac Day", "date": "2027-04-25"},
+        {"name": "Anzac Day", "date": "2027-04-26"},
         {"name": "Western Australia Day", "date": "2027-06-07"},
         {"name": "King's Birthday", "date": "2027-09-27"},
         {"name": "Christmas Day", "date": "2027-12-25"},
-        {"name": "Boxing Day", "date": "2027-12-26"}
+        {"name": "Christmas Day", "date": "2027-12-27"},
+        {"name": "Boxing Day", "date": "2027-12-26"},
+        {"name": "Boxing Day", "date": "2027-12-28"}
     ]
 }
 
 
 # Define public holidays in QLD for the years 2025, 2026, and 2027
 public_holidays_Queensland = {
+     2020: [
+        {"name": "New Year's Day", "date": "2020-01-01"},
+        {"name": "Australia Day", "date": "2020-01-27"},
+        {"name": "Good Friday", "date": "2020-04-10"},
+        {"name": "The day after Good Friday", "date": "2020-04-11"},
+        {"name": "Easter Sunday", "date": "2020-04-12"},
+        {"name": "Easter Monday", "date": "2020-04-13"},
+        {"name": "Anzac Day", "date": "2020-04-25"},
+        {"name": "Labour Day", "date": "2020-05-04"},
+        {"name": "Queen's Birthday", "date": "2020-10-05"},
+        {"name": "Christmas Eve (from 6pm)", "date": "2020-12-24"},
+        {"name": "Christmas Day", "date": "2020-12-25"},
+        {"name": "Boxing Day", "date": "2020-12-26"},
+        {"name": "Boxing Day (Additional Day)", "date": "2020-12-28"}
+    ],
+    2021: [
+        {"name": "New Year's Day", "date": "2021-01-01"},
+        {"name": "Australia Day", "date": "2021-01-26"},
+        {"name": "Good Friday", "date": "2021-04-02"},
+        {"name": "The day after Good Friday", "date": "2021-04-03"},
+        {"name": "Easter Sunday", "date": "2021-04-04"},
+        {"name": "Easter Monday", "date": "2021-04-05"},
+        {"name": "Anzac Day", "date": "2021-04-26"},
+        {"name": "Labour Day", "date": "2021-05-03"},
+        {"name": "Queen's Birthday", "date": "2021-10-04"},
+        {"name": "Christmas Eve (from 6pm)", "date": "2021-12-24"},
+        {"name": "Christmas Day", "date": "2021-12-25"},
+        {"name": "Christmas Day (Additional Day)", "date": "2021-12-27"},
+        {"name": "Boxing Day", "date": "2021-12-26"},
+        {"name": "Boxing Day (Additional Day)", "date": "2021-12-28"}
+    ],
+    2022: [
+        {"name": "New Year's Day", "date": "2022-01-01"},
+        {"name": "New Year's Day (Additional Day)", "date": "2022-01-03"},
+        {"name": "Australia Day", "date": "2022-01-26"},
+        {"name": "Good Friday", "date": "2022-04-15"},
+        {"name": "The day after Good Friday", "date": "2022-04-16"},
+        {"name": "Easter Sunday", "date": "2022-04-17"},
+        {"name": "Easter Monday", "date": "2022-04-18"},
+        {"name": "Anzac Day", "date": "2022-04-25"},
+        {"name": "Labour Day", "date": "2022-05-02"},
+        {"name": "National Day of Mourning for Her Majesty The Queen", "date": "2022-09-22"},
+        {"name": "Queen's Birthday", "date": "2022-10-03"},
+        {"name": "Christmas Eve (from 6pm)", "date": "2022-12-24"},
+        {"name": "Christmas Day", "date": "2022-12-25"},
+        {"name": "Christmas Day (Additional Day)", "date": "2022-12-27"},
+        {"name": "Boxing Day", "date": "2022-12-26"}
+    ],
+    
     2023: [
       {
         "name": "New Year's Day",
         "date": "2023-01-01"
+      },
+      {
+        "name": "New Year's Day (Additional Day)",
+        "date": "2023-01-02"
       },
       {
         "name": "Australia Day",
@@ -251,7 +355,7 @@ public_holidays_Queensland = {
         "date": "2024-05-06"
       },
       {
-        "name": "Queen's Birthday",
+        "name": "King's Birthday",
         "date": "2024-10-07"
       },
       {
@@ -289,7 +393,8 @@ public_holidays_Queensland = {
         {"name": "Queensland Day", "date": "2026-10-04"},
         {"name": "Labour Day (South East Queensland)", "date": "2026-10-04"},
         {"name": "Christmas Day", "date": "2026-12-25"},
-        {"name": "Boxing Day", "date": "2026-12-26"}
+        {"name": "Boxing Day", "date": "2026-12-26"},
+        {"name": "Boxing Day (Additional Day)", "date": "2026-12-28"}
     ],
     2027: [
         {"name": "New Year's Day", "date": "2027-01-01"},
@@ -303,7 +408,9 @@ public_holidays_Queensland = {
         {"name": "Queensland Day", "date": "2027-10-03"},
         {"name": "Labour Day (South East Queensland)", "date": "2027-10-03"},
         {"name": "Christmas Day", "date": "2027-12-25"},
-        {"name": "Boxing Day", "date": "2027-12-26"}
+        {"name": "Christmas Day (Additional Day)", "date": "2027-12-27"},
+        {"name": "Boxing Day", "date": "2027-12-26"},
+        {"name": "Boxing Day (Additional Day)", "date": "2027-12-28"}
     ]
 }
 
@@ -367,7 +474,7 @@ location = st.sidebar.radio("Select Location for Public Holidays", ["Queensland"
 # Custom Holiday Input
 st.sidebar.subheader("Enter Custom Public Holiday")
 holiday_name = st.sidebar.text_input("Holiday Name")
-holiday_date = st.sidebar.date_input("Holiday Date", min_value=datetime(2023, 1, 1))
+holiday_date = st.sidebar.date_input("Holiday Date", min_value=datetime(2020, 1, 1))
 
 # Button to add custom holiday
 if st.sidebar.button("Add Custom Holiday"):
@@ -458,7 +565,7 @@ def calculate_workdays(start_date, roster_pattern, public_holidays, location, ye
     cycles = []  # Store cycle details
 
     all_public_holidays = []
-    for year in range(2023, 2028):
+    for year in range(2020, 2028):
         if location == "Queensland":
             if year in public_holidays:  # Add this check
                 all_public_holidays.extend(public_holidays[year])
@@ -528,7 +635,7 @@ if page == "Projection":
     employee_name = st.text_input("Enter Employee Name:")
     
     # User selects Start Date
-    start_date = st.date_input("Select Start Date", min_value=datetime(2023, 1, 1), key="start_date_input")
+    start_date = st.date_input("Select Start Date", min_value=datetime(2020, 1, 1), key="start_date_input")
     
     # Calculate end date (12 months after the start date)
     end_date = calculate_end_date(start_date)
@@ -576,7 +683,7 @@ if page == "Projection":
         
          # Access the variables from session state
         all_public_holidays = []
-        for year in range(2023, 2028):
+        for year in range(2020, 2028):
             if location == "Queensland":
                 all_public_holidays.extend(public_holidays_Queensland[year])
             elif location == "Western Australia":
@@ -751,7 +858,7 @@ if page == "Projection":
 elif page == "All Rosters":
     st.title("All Rosters Projection")
 
-    start_date = st.date_input("Select Start Date", min_value=datetime(2023, 1, 1), key="all_rosters_start_date")
+    start_date = st.date_input("Select Start Date", min_value=datetime(2020, 1, 1), key="all_rosters_start_date")
 
     if st.button("Export All Rosters to Excel"):
         excel_file = io.BytesIO()
@@ -764,7 +871,7 @@ elif page == "All Rosters":
                 start_date_str = start_date.strftime("%Y-%m-%d")
 
                 selected_public_holidays = []
-                for year in range(2023, 2028):
+                for year in range(2020, 2028):
                     if location == "Queensland":
                         selected_public_holidays.extend(public_holidays_Queensland[year])
                     elif location == "Western Australia":
@@ -876,7 +983,7 @@ elif page == "All Rosters":
 elif page == "Start Date Optimizer":
     st.title("Start Date Optimizer")
 
-    start_date = st.date_input("Select Start Date for Optimization", min_value=datetime(2023, 1, 1), key="optimizer_start_date")
+    start_date = st.date_input("Select Start Date for Optimization", min_value=datetime(2020, 1, 1), key="optimizer_start_date")
     window_weeks = st.selectbox("Select Optimization Window (weeks)", options=[2, 3, 4, 6, 8])
 
     if location == "Queensland":
