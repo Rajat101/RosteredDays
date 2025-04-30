@@ -220,7 +220,7 @@ public_holidays = {
 }
 
 
-# Define public holidays in QLD for the years 2025, 2026, and 2027
+# Define public holidays in QLD for the years 2020,2021,2022,2023,2024, 2025, 2026, and 2027
 public_holidays_Queensland = {
      2020: [
         {"name": "New Year's Day", "date": "2020-01-01"},
@@ -414,6 +414,190 @@ public_holidays_Queensland = {
     ]
 }
 
+# Define public holidays in NT for the years 2020, 2021, 2022, 2023, 2024, 2025, 2026, and 2027
+public_holidays_NT = {
+    2020: [ 
+        {"name": "New Year's Day", "date": "2020-01-01"},
+    {"name": "Australia Day", "date": "2020-01-27"},
+    {"name": "Labour Day", "date": "2020-03-02"},
+    {"name": "Good Friday", "date": "2020-04-10"},
+    {"name": "Easter Saturday", "date": "2020-04-11"},
+    {"name": "Easter Sunday", "date": "2020-04-12"},
+    {"name": "Easter Monday", "date": "2020-04-13"},
+    {"name": "Anzac Day", "date": "2020-04-25"},
+    {"name": "Anzac Day (Additional Day)", "date": "2020-04-27"},
+    {"name": "May Day", "date": "2020-05-04"},
+    {"name": "Queen's Birthday", "date": "2020-06-08"},
+    {"name": "Alice Springs Show Day", "date": "2020-07-03"},
+    {"name": "Tennant Creek Show Day", "date": "2020-07-10"},
+    {"name": "Katherine Show Day", "date": "2020-07-17"},
+    {"name": "Darwin Show Day", "date": "2020-07-24"},
+    {"name": "Picnic Day", "date": "2020-08-03"},
+    {"name": "Borroloola Show Day", "date": "2020-08-21"},
+    {"name": "Christmas Eve", "date": "2020-12-24"},
+    {"name": "Christmas Day", "date": "2020-12-25"},
+    {"name": "Boxing Day", "date": "2020-12-26"},
+    {"name": "Boxing Day (Additional Day)", "date": "2020-12-28"}
+
+    ],
+    2021: [
+        {"name": "New Year's Day", "date": "2021-01-01"},
+    {"name": "Australia Day", "date": "2021-01-26"},
+    {"name": "Good Friday", "date": "2021-04-02"},
+    {"name": "Easter Saturday", "date": "2021-04-03"},
+    {"name": "Easter Sunday", "date": "2021-04-04"},
+    {"name": "Easter Monday", "date": "2021-04-05"},
+    {"name": "Anzac Day", "date": "2021-04-25"},
+    {"name": "Anzac Day (Additional Day)", "date": "2021-04-26"},
+    {"name": "May Day", "date": "2021-05-03"},
+    {"name": "Queen's Birthday", "date": "2021-06-14"},
+    {"name": "Alice Springs Show Day", "date": "2021-07-02"},
+    {"name": "Tennant Creek Show Day", "date": "2021-07-09"},
+    {"name": "Katherine Show Day", "date": "2021-07-16"},
+    {"name": "Darwin Show Day", "date": "2021-07-23"},
+    {"name": "Picnic Day", "date": "2021-08-02"},
+    {"name": "Borroloola Show Day", "date": "2021-08-20"},
+    {"name": "Christmas Eve", "date": "2021-12-24"},
+    {"name": "Christmas Day", "date": "2021-12-25"},
+    {"name": "Boxing Day", "date": "2021-12-26"},
+    {"name": "Boxing Day (Additional Day)", "date": "2021-12-27"},
+    {"name": "New Year's Eve", "date": "2021-12-31"}
+    ],
+    2022: [
+        {"name": "New Year's Day", "date": "2022-01-01"},
+    {"name": "Australia Day", "date": "2022-01-26"},
+    {"name": "Good Friday", "date": "2022-04-15"},
+    {"name": "Easter Saturday", "date": "2022-04-16"},
+    {"name": "Easter Sunday", "date": "2022-04-17"},
+    {"name": "Easter Monday", "date": "2022-04-18"},
+    {"name": "Anzac Day", "date": "2022-04-25"},
+    {"name": "Anzac Day (Additional Day)", "date": "2022-04-26"},
+    {"name": "May Day", "date": "2022-05-02"},
+    {"name": "Queen's Birthday", "date": "2022-06-13"},
+    {"name": "Alice Springs Show Day", "date": "2022-07-01"},
+    {"name": "Tennant Creek Show Day", "date": "2022-07-08"},
+    {"name": "Katherine Show Day", "date": "2022-07-15"},
+    {"name": "Darwin Show Day", "date": "2022-07-22"},
+    {"name": "Picnic Day", "date": "2022-08-01"},
+    {"name": "Borroloola Show Day", "date": "2022-08-19"},
+    {"name": "Christmas Eve", "date": "2022-12-24"},
+    {"name": "Christmas Day", "date": "2022-12-25"},
+    {"name": "Boxing Day", "date": "2022-12-26"},
+    {"name": "Boxing Day (Additional Day)", "date": "2022-12-27"},
+    {"name": "New Year's Eve", "date": "2022-12-31"}
+    ],
+    2023: [
+    {"name": "New Year's Day", "date": "2023-01-01"},
+    {"name": "Australia Day", "date": "2023-01-26"},
+    {"name": "Good Friday", "date": "2023-04-07"},
+    {"name": "Easter Saturday", "date": "2023-04-08"},
+    {"name": "Easter Sunday", "date": "2023-04-09"},
+    {"name": "Easter Monday", "date": "2023-04-10"},
+    {"name": "Anzac Day", "date": "2023-04-25"},
+    {"name": "Anzac Day (Additional Day)", "date": "2023-04-26"},
+    {"name": "May Day", "date": "2023-05-01"},
+    {"name": "King's Birthday", "date": "2023-06-12"},
+    {"name": "Alice Springs Show Day", "date": "2023-07-07"},
+    {"name": "Tennant Creek Show Day", "date": "2023-07-14"},
+    {"name": "Katherine Show Day", "date": "2023-07-21"},
+    {"name": "Darwin Show Day", "date": "2023-07-28"},
+    {"name": "Picnic Day", "date": "2023-08-07"},
+    {"name": "Borroloola Show Day", "date": "2023-08-18"},
+    {"name": "Christmas Eve", "date": "2023-12-24"},
+    {"name": "Christmas Day", "date": "2023-12-25"},
+    {"name": "Boxing Day", "date": "2023-12-26"},
+    {"name": "Boxing Day (Additional Day)", "date": "2023-12-27"}
+  ],
+  2024: [
+    {"name": "New Year's Day", "date": "2024-01-01"},
+    {"name": "Australia Day", "date": "2024-01-26"},
+    {"name": "Good Friday", "date": "2024-03-29"},
+    {"name": "Easter Saturday", "date": "2024-03-30"},
+    {"name": "Easter Sunday", "date": "2024-03-31"},
+    {"name": "Easter Monday", "date": "2024-04-01"},
+    {"name": "Anzac Day", "date": "2024-04-25"},
+    {"name": "Anzac Day (Additional Day)", "date": "2024-04-26"},
+    {"name": "May Day", "date": "2024-05-06"},
+    {"name": "King's Birthday", "date": "2024-06-10"},
+    {"name": "Alice Springs Show Day", "date": "2024-07-05"},
+    {"name": "Tennant Creek Show Day", "date": "2024-07-12"},
+    {"name": "Katherine Show Day", "date": "2024-07-19"},
+    {"name": "Darwin Show Day", "date": "2024-07-26"},
+    {"name": "Picnic Day", "date": "2024-08-05"},
+    {"name": "Borroloola Show Day", "date": "2024-08-16"},
+    {"name": "Christmas Eve", "date": "2024-12-24"},
+    {"name": "Christmas Day", "date": "2024-12-25"},
+    {"name": "Boxing Day", "date": "2024-12-26"},
+    {"name": "Boxing Day (Additional Day)", "date": "2024-12-27"}
+  ],
+    2025: [
+    {"name": "New Year's Day", "date": "2025-01-01"},
+    {"name": "Australia Day", "date": "2025-01-27"},
+    {"name": "Good Friday", "date": "2025-04-18"},
+    {"name": "Easter Saturday", "date": "2025-04-19"},
+    {"name": "Easter Sunday", "date": "2025-04-20"},
+    {"name": "Easter Monday", "date": "2025-04-21"},
+    {"name": "Anzac Day", "date": "2025-04-25"},
+    {"name": "Anzac Day (Additional Day)", "date": "2025-04-28"},
+    {"name": "May Day", "date": "2025-05-05"},
+    {"name": "King's Birthday", "date": "2025-06-09"},
+    {"name": "Alice Springs Show Day", "date": "2025-07-04"},
+    {"name": "Tennant Creek Show Day", "date": "2025-07-11"},
+    {"name": "Katherine Show Day", "date": "2025-07-18"},
+    {"name": "Darwin Show Day", "date": "2025-07-25"},
+    {"name": "Picnic Day", "date": "2025-08-04"},
+    {"name": "Borroloola Show Day", "date": "2025-08-15"},
+    {"name": "Christmas Eve", "date": "2025-12-24"},
+    {"name": "Christmas Day", "date": "2025-12-25"},
+    {"name": "Boxing Day", "date": "2025-12-26"},
+    {"name": "Boxing Day (Additional Day)", "date": "2025-12-29"}
+    ],
+    2026: [
+    {"name": "New Year's Day", "date": "2026-01-01"},
+    {"name": "Australia Day", "date": "2026-01-26"},
+    {"name": "Good Friday", "date": "2026-04-03"},
+    {"name": "Easter Saturday", "date": "2026-04-04"},
+    {"name": "Easter Sunday", "date": "2026-04-05"},
+    {"name": "Easter Monday", "date": "2026-04-06"},
+    {"name": "Anzac Day", "date": "2026-04-25"},
+    {"name": "Anzac Day (Additional Day)", "date": "2026-04-27"},
+    {"name": "May Day", "date": "2026-05-04"},
+    {"name": "King's Birthday", "date": "2026-06-08"},
+    {"name": "Alice Springs Show Day", "date": "2026-07-03"},
+    {"name": "Tennant Creek Show Day", "date": "2026-07-10"},
+    {"name": "Katherine Show Day", "date": "2026-07-17"},
+    {"name": "Darwin Show Day", "date": "2026-07-24"},
+    {"name": "Picnic Day", "date": "2026-08-03"},
+    {"name": "Borroloola Show Day", "date": "2026-08-21"},
+    {"name": "Christmas Eve", "date": "2026-12-24"},
+    {"name": "Christmas Day", "date": "2026-12-25"},
+    {"name": "Boxing Day", "date": "2026-12-26"},
+    {"name": "Boxing Day (Additional Day)", "date": "2026-12-28"}
+    ],
+    2027: [
+    {"name": "New Year's Day", "date": "2027-01-01"},
+    {"name": "Australia Day", "date": "2027-01-26"},
+    {"name": "Good Friday", "date": "2027-04-02"},
+    {"name": "Easter Saturday", "date": "2027-04-03"},
+    {"name": "Easter Sunday", "date": "2027-04-04"},
+    {"name": "Easter Monday", "date": "2027-04-05"},
+    {"name": "Anzac Day", "date": "2027-04-25"},
+    {"name": "Anzac Day (Additional Day)", "date": "2027-04-26"},
+    {"name": "May Day", "date": "2027-05-03"},
+    {"name": "King's Birthday", "date": "2027-06-14"},
+    {"name": "Alice Springs Show Day", "date": "2027-07-02"},
+    {"name": "Tennant Creek Show Day", "date": "2027-07-09"},
+    {"name": "Katherine Show Day", "date": "2027-07-16"},
+    {"name": "Darwin Show Day", "date": "2027-07-23"},
+    {"name": "Picnic Day", "date": "2027-08-02"},
+    {"name": "Borroloola Show Day", "date": "2027-08-20"},
+    {"name": "Christmas Eve", "date": "2027-12-24"},
+    {"name": "Christmas Day", "date": "2027-12-25"},
+    {"name": "Boxing Day", "date": "2027-12-26"},
+    {"name": "Boxing Day (Additional Day)", "date": "2027-12-27"}
+    ]
+}
+
 # Function to find the best start date
 def find_best_start_date(start_date_str, roster_pattern, selected_public_holidays, location, weeks):
     start_date = datetime.strptime(start_date_str, "%Y-%m-%d")
@@ -459,17 +643,21 @@ def add_custom_holiday(location, holiday_name, holiday_date):
         st.session_state.custom_holidays_wa.append({"name": holiday_name, "date": holiday_date.strftime('%Y-%m-%d')})
     elif location == "Queensland":
         st.session_state.custom_holidays_qld.append({"name": holiday_name, "date": holiday_date.strftime('%Y-%m-%d')})
+    elif location == "Northern Territory":
+        st.session_state.custom_holidays_nt.append({"name": holiday_name, "date": holiday_date.strftime('%Y-%m-%d')})
 
 # Initialize session state for custom holidays
 if "custom_holidays_wa" not in st.session_state:
     st.session_state.custom_holidays_wa = []
 if "custom_holidays_qld" not in st.session_state:
     st.session_state.custom_holidays_qld = []
+if "custom_holidays_nt" not in st.session_state:
+    st.session_state.custom_holidays_nt = []
 
 
 
 # Sidebar for Location Selection
-location = st.sidebar.radio("Select Location for Public Holidays", ["Queensland", "Western Australia"])
+location = st.sidebar.radio("Select Location for Public Holidays", ["Queensland", "Western Australia","Northern Territory"])
 
 # Custom Holiday Input
 st.sidebar.subheader("Enter Custom Public Holiday")
@@ -499,6 +687,13 @@ def remove_custom_holiday(location, holiday_name, holiday_date):
             holiday for holiday in st.session_state.custom_holidays_qld
             if holiday["name"] != holiday_name or holiday["date"] != holiday_date.strftime('%Y-%m-%d')
         ]
+    elif location == "Northern Territory":
+        year = holiday_date.year
+        # Remove the holiday from the list in session state
+        st.session_state.custom_holidays_nt = [
+            holiday for holiday in st.session_state.custom_holidays_nt
+            if holiday["name"] != holiday_name or holiday["date"] != holiday_date.strftime('%Y-%m-%d')
+        ]
 
 
 # Display custom holidays in the sidebar with remove functionality
@@ -517,8 +712,18 @@ elif location == "Queensland" and st.session_state.custom_holidays_qld:
         if st.sidebar.button(f"Remove {holiday['name']} on {holiday['date']}"):
             remove_custom_holiday(location, holiday['name'], datetime.strptime(holiday['date'], "%Y-%m-%d"))
             st.success(f"Holiday '{holiday['name']}' removed for {location}.")
+elif location == "Northern Territory" and st.session_state.custom_holidays_nt:
+    for holiday in st.session_state.custom_holidays_nt:
+        st.sidebar.write(f"{holiday['name']} on {holiday['date']}")
+        
+        # Add a remove button for each custom holiday
+        if st.sidebar.button(f"Remove {holiday['name']} on {holiday['date']}"):
+            remove_custom_holiday(location, holiday['name'], datetime.strptime(holiday['date'], "%Y-%m-%d"))
+            st.success(f"Holiday '{holiday['name']}' removed for {location}.")
 else:
     st.sidebar.write("No custom holidays added yet.")
+    
+
 # Display custom holidays
 st.sidebar.subheader("Custom Holidays Added")
 if location == "Western Australia" and st.session_state.custom_holidays_wa:
@@ -526,6 +731,9 @@ if location == "Western Australia" and st.session_state.custom_holidays_wa:
         st.sidebar.write(f"{holiday['name']} on {holiday['date']}")
 elif location == "Queensland" and st.session_state.custom_holidays_qld:
     for holiday in st.session_state.custom_holidays_qld:
+        st.sidebar.write(f"{holiday['name']} on {holiday['date']}")
+elif location == "Northern Territory" and st.session_state.custom_holidays_nt:
+    for holiday in st.session_state.custom_holidays_nt:
         st.sidebar.write(f"{holiday['name']} on {holiday['date']}")
 else:
     st.sidebar.write("No custom holidays added yet.")
@@ -548,12 +756,20 @@ elif location == "Queensland":
     else:
         st.write("No custom holidays added for Queensland.")
 
+elif location == "Northern Territory":
+    st.write("Custom Holidays for Northern Territory:")
+    if st.session_state.custom_holidays_nt:
+        for holiday in st.session_state.custom_holidays_nt:
+            st.write(f"- {holiday['name']} on {holiday['date']}")
+    else:
+        st.write("No custom holidays added for Northern Territory.")
+
 
 # Initialize employee_name
 employee_name = None
 
 # Sidebar for Navigation
-page = st.sidebar.selectbox("Select Page", ["Projection", "All Rosters", "Start Date Optimizer"])
+page = st.sidebar.selectbox("Select Page", ["Projection", "All Rosters", "Start Date Optimizer","View Public Holidays"])
 
 def calculate_workdays(start_date, roster_pattern, public_holidays, location, year_span=1, manual_check=False):
     start_date = datetime.strptime(start_date, "%Y-%m-%d")
@@ -572,12 +788,19 @@ def calculate_workdays(start_date, roster_pattern, public_holidays, location, ye
         elif location == "Western Australia":
             if year in public_holidays:  # Add this check
                 all_public_holidays.extend(public_holidays[year])
+        elif location == "Northern Territory":
+            if year in public_holidays:  # Add this check
+                all_public_holidays.extend(public_holidays[year])
+                
     # Add custom holidays from session state
     if location == "Queensland":
         all_public_holidays.extend(st.session_state.custom_holidays_qld)
     elif location == "Western Australia":
         all_public_holidays.extend(st.session_state.custom_holidays_wa)
-
+    elif location == "Northern Territory":
+        all_public_holidays.extend(st.session_state.custom_holidays_nt)
+        
+#Ended the Creation of new state location line 800
     while current_day <= end_date:
         cycle_start = current_day
         work_end = min(current_day + timedelta(days=roster_pattern[0]), end_date + timedelta(days=1))
@@ -659,6 +882,10 @@ if page == "Projection":
     # Handle user selection for holiday location
     if location == "Queensland":
         selected_public_holidays = public_holidays_Queensland
+    elif location == "Northern Territory":
+        selected_public_holidays = public_holidays_NT
+    if location == "Western Australia":
+        selected_public_holidays = public_holidays
     else:
         selected_public_holidays = public_holidays
     
@@ -688,11 +915,15 @@ if page == "Projection":
                 all_public_holidays.extend(public_holidays_Queensland[year])
             elif location == "Western Australia":
                 all_public_holidays.extend(public_holidays[year])
+            elif location == "Northern Territory":
+                all_public_holidays.extend(public_holidays_NT[year])
 
         if location == "Queensland":
             all_public_holidays.extend(st.session_state.custom_holidays_qld)
         elif location == "Western Australia":
             all_public_holidays.extend(st.session_state.custom_holidays_wa)
+        elif location == "Northern Territory":
+            all_public_holidays.extend(st.session_state.custom_holidays_nt)
 
         work_days = []
         off_days = []
@@ -876,11 +1107,15 @@ elif page == "All Rosters":
                         selected_public_holidays.extend(public_holidays_Queensland[year])
                     elif location == "Western Australia":
                         selected_public_holidays.extend(public_holidays[year])
+                    elif location == "Northern Territory":
+                        selected_public_holidays.extend(public_holidays_NT[year])
 
                 if location == "Queensland":
                     selected_public_holidays.extend(st.session_state.custom_holidays_qld)
                 elif location == "Western Australia":
                     selected_public_holidays.extend(st.session_state.custom_holidays_wa)
+                elif location == "Northern Territory":
+                    selected_public_holidays.extend(st.session_state.custom_holidays_nt)
 
                 
                 
@@ -988,6 +1223,10 @@ elif page == "Start Date Optimizer":
 
     if location == "Queensland":
         selected_public_holidays = public_holidays_Queensland
+    elif location == "Northern Territory":
+        selected_public_holidays = public_holidays_NT
+    elif location == "Western Australia":
+        selected_public_holidays = public_holidays
     else:
         selected_public_holidays = public_holidays
 
@@ -1091,3 +1330,46 @@ elif page == "Start Date Optimizer":
                 )
             except Exception as e:
                 st.error(f"An error occurred during Excel export: {e}")
+
+
+elif page == "View Public Holidays":
+    st.title("Public Holidays List")
+    
+    
+    if location == "Queensland":
+        available_years = sorted(public_holidays_Queensland.keys())
+        selected_year = st.selectbox("Select a year:", available_years)
+
+        if selected_year:
+          st.header(f"Public Holidays for {selected_year}")
+          holidays_to_display = public_holidays_Queensland[selected_year]
+        for holiday in holidays_to_display:
+          date_object = datetime.strptime(holiday['date'], '%Y-%m-%d')
+          formatted_date = date_object.strftime('%A %d %B %Y')
+          st.write(f"{holiday['name']}: {formatted_date}")
+          
+    elif location == "Western Australia":
+        available_years = sorted(public_holidays.keys())
+        selected_year = st.selectbox("Select a year:", available_years)
+
+        if selected_year:
+          st.header(f"Public Holidays for {selected_year}")
+          holidays_to_display = public_holidays[selected_year]
+        for holiday in holidays_to_display:
+          date_object = datetime.strptime(holiday['date'], '%Y-%m-%d')
+          formatted_date = date_object.strftime('%A %d %B %Y')
+          st.write(f"{holiday['name']}: {formatted_date}")
+    
+    elif location == "Northern Territory":
+        available_years = sorted(public_holidays_NT.keys())
+        selected_year = st.selectbox("Select a year:", available_years)
+
+        if selected_year:
+          st.header(f"Public Holidays for {selected_year}")
+          holidays_to_display = public_holidays_NT[selected_year]
+        for holiday in holidays_to_display:
+          date_object = datetime.strptime(holiday['date'], '%Y-%m-%d')
+          formatted_date = date_object.strftime('%A %d %B %Y')
+          st.write(f"{holiday['name']}: {formatted_date}")
+        
+  
